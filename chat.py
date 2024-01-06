@@ -3,7 +3,7 @@
 from openai import OpenAI
 
 # Sett opp API-nøkkelen din fra https://beta.openai.com/account/api-keys
-api_key = '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'
+api_key = ''
 client = OpenAI(api_key=api_key)
 
 def chat_with_gpt(prompt, model="gpt-3.5-turbo"):
